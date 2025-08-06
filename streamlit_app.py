@@ -27,6 +27,10 @@ st.markdown("""
     color-scheme: dark;
     overflow: hidden;
 }
+.st-emotion-cache-1krtkoa {
+    background: #CC415C;
+    }
+    
 .main {
     padding-top: 2rem;
 }
@@ -420,6 +424,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
