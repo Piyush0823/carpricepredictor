@@ -19,18 +19,6 @@ st.set_page_config(
 # Custom CSS for better styling
 st.markdown("""
 <style>
-.stMainBlockContainer{
-    background-image: url("/racing.png");
-    
-    }
-.st-emotion-cache-1j22a0y {
-    flex-shrink: 0;
-    display: flex;
-    -webkit-box-align: right;
-    align-items: right;
-    -webkit-box-pack: justify;
-    justify-content: space-between;
-}
 .st-emotion-cache-155jwzh{
     background-color: #450F1D;
     }
@@ -443,6 +431,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
