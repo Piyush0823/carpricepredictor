@@ -54,7 +54,7 @@ st.markdown("""
     color: #fff !important;
 }
 .stSelectbox [data-baseweb="popover"] {
-    background-color: #CC415C !important;
+    background-color: #B0001F !important;
     color: #fff !important;
 }
 .price-prediction {
@@ -430,6 +430,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
