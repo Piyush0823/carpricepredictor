@@ -11,7 +11,7 @@ warnings.filterwarnings('ignore')
 # Set page config
 st.set_page_config(
     page_title="Car Price Predictor",
-    page_icon="🚗",
+    page_icon="racing.png",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -438,6 +438,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
