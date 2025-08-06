@@ -21,27 +21,22 @@ st.markdown("""
 <style>
 .main {
     padding-top: 2rem;
-    primaryColor="#d33682";
-    backgroundColor="#002b36";
-    secondaryBackgroundColor="#586e75";
-    textColor="#fafafa";
-    font="sans serif";
 }
 /* Make selectbox text white and background dark for visibility */
 .stSelectbox > div > div > div {
-    background-color: #222 !important;
+    background-color: #1A8AA3 !important;
     color: #fff !important;
 }
 /* Dropdown menu background and text color */
 .stSelectbox [data-baseweb="select"] > div {
-    background-color: #222 !important;
+    background-color: #1A8AA3 !important;
     color: #fff !important;
 }
 .stSelectbox [data-baseweb="select"] span {
     color: #fff !important;
 }
 .stSelectbox [data-baseweb="popover"] {
-    background-color: #222 !important;
+    background-color: #1A8AA3 !important;
     color: #fff !important;
 }
 .price-prediction {
@@ -54,14 +49,14 @@ st.markdown("""
 }
 .comparison-box {
     background-color: #f8f9fa;
-    color: #222;
+    color: #1A8AA3;
     padding: 1.5rem;
     border-radius: 10px;
     border-left: 4px solid #667eea;
 }
 .metric-box {
     background-color: #ffffff;
-    color: #222;
+    color: #1A8AA3;
     padding: 1rem;
     border-radius: 8px;
     border: 1px solid #e0e0e0;
@@ -417,4 +412,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
