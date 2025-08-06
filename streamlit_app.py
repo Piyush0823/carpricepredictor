@@ -21,7 +21,7 @@ st.markdown("""
 <style>
 .st-emotion-cache-13k62yr {
     position: absolute;
-    background: rgb(0, 143, 143);
+    background: rgb(87, 0, 0);
     color: rgb(250, 250, 250);
     inset: 0px;
     color-scheme: dark;
@@ -420,6 +420,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
