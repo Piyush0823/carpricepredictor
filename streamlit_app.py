@@ -11,7 +11,7 @@ warnings.filterwarnings('ignore')
 st.image("racing.png", width=100)
 st.markdown("<h1 style='font-family: cursive; text-align: center;'>PriceDekho.com</h1>", unsafe_allow_html=True)
 
-st-emotion-cache-1j22a0y("<h4 style='font-family: cursive; text-align: center;'>PriceDekho.com</h4>", unsafe_allow_html=True)
+st-emotion-cache("<h4 style='font-family: cursive; text-align: center;'>PriceDekho.com</h4>", unsafe_allow_html=True)
 
 
 # Set page config
@@ -474,6 +474,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
