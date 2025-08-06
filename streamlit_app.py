@@ -20,7 +20,7 @@ st.set_page_config(
 st.markdown("""
 <style>
 .stMainBlockContainer{
-    background-image: "racing.png";
+    background-image: url("/main/racing.png");
     }
 .st-emotion-cache-1j22a0y {
     flex-shrink: 0;
@@ -441,6 +441,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
