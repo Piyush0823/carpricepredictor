@@ -46,13 +46,7 @@ st.markdown(footer, unsafe_allow_html=True)
 
 st.markdown("""
 <style>
-.comparison-box {
-    background-color: red;
-    color: #1A8AA3;
-    padding: 1.5rem;
-    border-radius: 10px;
-    border-left: 4px solid #667eea;
-}
+
 .st-emotion-cache-155jwzh{
     background-color: #450F1D;
     }
@@ -109,7 +103,7 @@ st.markdown("""
     margin: 1rem 0;
 }
 .comparison-box {
-    background-color: #f8f9fa;
+    background-color: red;
     color: #1A8AA3;
     padding: 1.5rem;
     border-radius: 10px;
@@ -475,6 +469,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
