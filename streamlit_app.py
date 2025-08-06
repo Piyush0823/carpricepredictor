@@ -9,7 +9,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 st.image("racing.png", width=100)
-st.h1("Price Dekho.com")
+h1("Price Dekho.com")
 
 # Set page config
 st.set_page_config(
@@ -471,6 +471,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
