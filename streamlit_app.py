@@ -30,9 +30,8 @@ st.markdown("""
 }
 
 <style>
-.stAlertContainer, li {
-    color: #ffffff;
-}
+
+
 .st-emotion-cache-13k62yr {
     position: absolute;
     background: rgb(61, 0, 0);
@@ -52,6 +51,9 @@ st.markdown("""
 .stSelectbox > div > div > div {
     background-color: #B0001F !important;
     color: #fff !important;
+}
+.stAlertContainer, li {
+    color: #ffffff;
 }
 /* Dropdown menu background and text color */
 .stSelectbox [data-baseweb="select"] > div {
@@ -438,6 +440,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
