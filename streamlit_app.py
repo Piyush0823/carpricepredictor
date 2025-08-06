@@ -20,6 +20,13 @@ st.set_page_config(
 
 st.markdown("""
 <style>
+html,body {
+    background: url("/racing.png") no-repeat center center fixed;
+    -webkit-background-size: cover; 
+    -moz-background-size: cover;    
+    -o-background-size: cover;     
+    background-size: cover;         
+}
 .st-emotion-cache-155jwzh{
     background-color: #450F1D;
     }
@@ -32,6 +39,7 @@ st.markdown("""
 
 .st-emotion-cache-13k62yr {
     position: absolute;
+    
     background: rgb(61, 0, 0);
     color: rgb(250, 250, 250);
     inset: 0px;
@@ -438,6 +446,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
