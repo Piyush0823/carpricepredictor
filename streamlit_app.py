@@ -19,12 +19,12 @@ st.set_page_config(
 # Custom CSS for better styling
 st.markdown("""
 <style>
-st-emotion-cache-1j22a0y {
+.st-emotion-cache-1j22a0y {
     flex-shrink: 0;
     display: flex;
-    -webkit-box-align: right;
-    align-items: right;
-    -webkit-box-pack: flex;
+    -webkit-box-align: left;
+    align-items: left;
+    -webkit-box-pack: justify;
     justify-content: space-between;
     width: 100%;
     margin: 0px;
@@ -441,6 +441,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
