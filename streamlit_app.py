@@ -104,7 +104,7 @@ st.markdown("""
 }
 .comparison-box {
     background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
-    color: #1A8AA3;
+    color: red;
     padding: 1.5rem;
     border-radius: 10px;
     border-left: 4px solid #667eea;
@@ -470,6 +470,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
