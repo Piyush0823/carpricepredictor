@@ -8,6 +8,8 @@ from datetime import datetime
 import warnings
 warnings.filterwarnings('ignore')
 
+st.image("racing.png")
+
 # Set page config
 st.set_page_config(
     page_title="Car Price Predictor",
@@ -462,6 +464,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
