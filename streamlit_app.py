@@ -17,6 +17,9 @@ st.set_page_config(
 )
 
 # Custom CSS for better styling
+st-emotion-cache-13k62yr (
+     img src="hologram.jpg" alt="Holograms" width="500" height="500" align-items=center;
+     )
 st.markdown("""
 <style>
 .st-emotion-cache-155jwzh{
@@ -31,10 +34,8 @@ st.markdown("""
 
 .st-emotion-cache-13k62yr {
     position: absolute;
-    background-image: url("racing.png");
     background: rgb(61, 0, 0);
     color: rgb(250, 250, 250);
-    
     inset: 0px;
     color-scheme: dark;
     overflow: hidden;
@@ -439,6 +440,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
