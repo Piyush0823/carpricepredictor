@@ -19,6 +19,9 @@ st.set_page_config(
 # Custom CSS for better styling
 st.markdown("""
 <style>
+.st-emotion-cache-18tdrd9{
+    font-color: white;
+    }
 .st-emotion-cache-13k62yr {
     position: absolute;
     background: rgb(61, 0, 0);
@@ -424,6 +427,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
