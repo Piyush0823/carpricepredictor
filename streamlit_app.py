@@ -17,9 +17,7 @@ st.set_page_config(
 )
 
 # Custom CSS for better styling
-st-emotion-cache-13k62yr (
-     image=url("/racing.png"), alt="Holograms" ,width="500" ,height="500"
-     )
+
 st.markdown("""
 <style>
 .st-emotion-cache-155jwzh{
@@ -440,6 +438,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
