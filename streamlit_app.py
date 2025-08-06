@@ -22,7 +22,7 @@ st.markdown("""
 .st-emotion-cache-155jwzh{
     background-color: #450F1D;
     }
-.h1{
+.car-price-predictor{
     font-family: Courier, monospace;
     }
 .stAlertContainer{
@@ -433,6 +433,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
