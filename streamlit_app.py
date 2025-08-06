@@ -31,7 +31,7 @@ hologram_style = """
 """
 st.markdown(hologram_style, unsafe_allow_html=True)
 st.markdown(
-    '<img src="/racing.png" class="hologram">',
+    '<img src="racing.png" class="hologram">',
     unsafe_allow_html=True
 )
 
@@ -462,6 +462,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
