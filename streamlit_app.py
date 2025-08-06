@@ -12,6 +12,9 @@ warnings.filterwarnings('ignore')
 st.set_page_config(
     page_title="Car Price Predictor",
     page_icon="racing.png",
+    background: rgb(61, 0, 0);
+    color: rgb(250, 250, 250);
+    opacity:0.5;
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -437,6 +440,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
