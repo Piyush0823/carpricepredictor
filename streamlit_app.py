@@ -103,7 +103,7 @@ st.markdown("""
     margin: 1rem 0;
 }
 .comparison-box {
-    background-color: red opacity:0.2;
+    background-color:#D41C6C ;
     color: #1A8AA3;
     padding: 1.5rem;
     border-radius: 10px;
@@ -470,6 +470,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
