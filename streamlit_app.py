@@ -26,7 +26,7 @@ st.markdown("""
     font-family: "Courier", monospace;
     line-height: 1.2;
     margin: 0px;
-    color: inherit;
+    color: ;
 }
 
 <style>
@@ -440,6 +440,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
