@@ -23,7 +23,7 @@ st.markdown("""
     background-color: #450F1D;
     }
 .st-emotion-cache-18tdrd9 h1{
-    font-family: "Courier", "monospace";
+    font-family: "Courier", monospace;
     }
 .stAlertContainer{
     font-color: white;
@@ -433,6 +433,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
