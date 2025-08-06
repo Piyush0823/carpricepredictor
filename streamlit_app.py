@@ -103,11 +103,12 @@ st.markdown("""
     margin: 1rem 0;
 }
 .comparison-box {
-    background-color: red;
+    background-color: red opacity:0.5;
     color: #1A8AA3;
     padding: 1.5rem;
     border-radius: 10px;
     border-left: 4px solid #667eea;
+    
 }
 .metric-box {
     background-color: #ffffff;
@@ -469,6 +470,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
