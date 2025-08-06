@@ -44,11 +44,7 @@ html,body {
     inset: 0px;
     color-scheme: dark;
     overflow: hidden;
-    background: url("/racing.png") no-repeat center center fixed;
-    -webkit-background-size: cover; 
-    -moz-background-size: cover;    
-    -o-background-size: cover;     
-    background-size: cover;   
+    background-image:url("/racing.png");
 }
 .st-emotion-cache-1krtkoa {
     background: #B0001F;
@@ -450,6 +446,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
