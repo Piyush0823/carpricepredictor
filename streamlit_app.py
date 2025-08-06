@@ -28,12 +28,11 @@ st.markdown("""
     margin: 0px;
     color: inherit;
 }
-.st-emotion-cache-18tdrd9 h1{
-    font-family: "Courier", monospace;
-    }
-.stAlertContainer{
-    font-color: white;
-    }
+
+<style>
+.st-al {
+    color: #ffffff;
+}
 .st-emotion-cache-13k62yr {
     position: absolute;
     background: rgb(61, 0, 0);
@@ -439,6 +438,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
