@@ -30,7 +30,7 @@ st.markdown("""
 .st-emotion-cache-155jwzh{
     background-color: #450F1D;
     }
-.st-emotion-cache-18tdrd9{
+.stAlertContainer{
     font-color: white;
     }
 .st-emotion-cache-13k62yr {
@@ -438,6 +438,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
