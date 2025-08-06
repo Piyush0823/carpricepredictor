@@ -18,7 +18,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
- footer = """
+footer = """
     <style>
     .footer {
         position: fixed;
@@ -40,8 +40,7 @@ st.set_page_config(
         <em>Thank you to all users for using our web app!</em>
     </div>
 """
-
-    st.markdown(footer, unsafe_allow_html=True)
+st.markdown(footer, unsafe_allow_html=True)
     
 # Custom CSS for better styling
 
@@ -470,6 +469,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
