@@ -31,8 +31,8 @@ st.markdown("""
 
 .st-emotion-cache-13k62yr {
     position: absolute;
-    background: rgb(61, 0, 0);
-    color: rgb(250, 250, 250);
+    background-image: url("racing.png");
+   
     inset: 0px;
     color-scheme: dark;
     overflow: hidden;
@@ -437,6 +437,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
