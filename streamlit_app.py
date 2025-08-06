@@ -197,7 +197,7 @@ def main():
         st.stop()
     
     # Header
-    st.title("🚗 Car Price Predictor")
+    st.title("transport.png Car Price Predictor")
     st.markdown("### Get accurate resale value predictions for your car")
     
     # Sidebar for inputs
@@ -305,7 +305,7 @@ def main():
             # Display prediction
             st.markdown(f"""
             <div class="price-prediction">
-                <h2>🎯 Predicted Price</h2>
+                <h2> Predicted Price</h2>
                 <h1>₹{predicted_price:,.0f}</h1>
                 <p>Model used: {model_choice}</p>
             </div>
@@ -438,6 +438,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
