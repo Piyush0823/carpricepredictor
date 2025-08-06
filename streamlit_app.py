@@ -23,7 +23,7 @@ st.markdown("""
     background-color: #450F1D;
     }
 .stSelectbox{
-    border-radius:4px;
+    border-radius:50px;
     }
 .stAlertContainer{
     font-color: white;
@@ -433,6 +433,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
