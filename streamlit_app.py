@@ -22,6 +22,9 @@ st.markdown("""
 .st-emotion-cache-155jwzh{
     background-color: #450F1D;
     }
+.stSelectbox{
+    border-radius:4px;
+    }
 .stAlertContainer{
     font-color: white;
     }
@@ -430,6 +433,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
