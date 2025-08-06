@@ -32,19 +32,19 @@ st.markdown("""
 }
 /* Make selectbox text white and background dark for visibility */
 .stSelectbox > div > div > div {
-    background-color: #1A8AA3 !important;
+    background-color: #CC415C !important;
     color: #fff !important;
 }
 /* Dropdown menu background and text color */
 .stSelectbox [data-baseweb="select"] > div {
-    background-color: #1A8AA3 !important;
+    background-color: #CC415C !important;
     color: #fff !important;
 }
 .stSelectbox [data-baseweb="select"] span {
     color: #fff !important;
 }
 .stSelectbox [data-baseweb="popover"] {
-    background-color: #1A8AA3 !important;
+    background-color: #CC415C !important;
     color: #fff !important;
 }
 .price-prediction {
@@ -420,6 +420,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
