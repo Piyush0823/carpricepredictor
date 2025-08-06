@@ -8,7 +8,7 @@ from datetime import datetime
 import warnings
 warnings.filterwarnings('ignore')
 
-st.image("racing.png")
+st.image("racing.png", width=100)
 
 # Set page config
 st.set_page_config(
@@ -446,6 +446,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
