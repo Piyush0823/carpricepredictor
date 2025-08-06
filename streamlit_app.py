@@ -9,7 +9,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 st.image("racing.png", width=100)
-
+st.markdown("<h2 style='font-family: cursive; text-align: center;'>PriceDekho.com</h2>", unsafe_allow_html=True)
 
 # Set page config
 st.set_page_config(
@@ -471,6 +471,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
