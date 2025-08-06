@@ -12,9 +12,6 @@ warnings.filterwarnings('ignore')
 st.set_page_config(
     page_title="Car Price Predictor",
     page_icon="racing.png",
-    background: rgb(61, 0, 0);
-    color: rgb(250, 250, 250);
-    opacity:0.5;
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -35,7 +32,9 @@ st.markdown("""
 .st-emotion-cache-13k62yr {
     position: absolute;
     background-image: url("racing.png");
-   
+    background: rgb(61, 0, 0);
+    color: rgb(250, 250, 250);
+    opacity:0.5;
     inset: 0px;
     color-scheme: dark;
     overflow: hidden;
@@ -440,6 +439,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
