@@ -29,6 +29,7 @@ st.markdown("""
 }
 .st-emotion-cache-155jwzh{
     background-color: #450F1D;
+    background-image: racing.png;
     }
 .stAlertContainer{
     font-color: white !important;
@@ -197,7 +198,7 @@ def main():
         st.stop()
     
     # Header
-    st.title(" 🚗 Car Price Predictor")
+    st.title("🚗  Car Price Predictor")
     st.markdown("### Get accurate resale value predictions for your car")
     
     # Sidebar for inputs
@@ -438,6 +439,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
