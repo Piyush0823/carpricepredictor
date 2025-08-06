@@ -202,7 +202,7 @@ def main():
     # Header
     st.title(
         "🚗  Car Price Predictor",
-        img.src="racing.png" alt="logo" width="100" height="100"
+        img src="racing.png", alt="logo", width="100" height="100"
     )
     st.markdown("### Get accurate resale value predictions for your car")
     
@@ -444,6 +444,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
