@@ -22,8 +22,8 @@ st.markdown("""
 .st-emotion-cache-155jwzh{
     background-color: #450F1D;
     }
-.stSelectbox{
-    border-radius:50px;
+.st-emotion-cache-18tdrd9{
+    font-family: Courier, monospace;
     }
 .stAlertContainer{
     font-color: white;
