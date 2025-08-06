@@ -18,7 +18,7 @@ st.set_page_config(
 
 # Custom CSS for better styling
 stMainBlockContainer (
-     image=url("/racing.png"), alt="Holograms" ,width="500" ,height="500", align-items=center;
+     image=url("/racing.png"), alt="Holograms" ,width="500" ,height="500";
      )
 st.markdown("""
 <style>
@@ -440,6 +440,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
