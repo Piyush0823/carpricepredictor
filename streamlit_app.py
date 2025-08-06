@@ -15,11 +15,18 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
-import streamlit as st
 
-# Display the hologram icon
-hologram_style = """
+st.markdown(hologram_style, unsafe_allow_html=True)
+st.markdown(
+    '<img src="/racing.png" class="hologram">',
+    unsafe_allow_html=True
+)
+
+# Custom CSS for better styling
+
+st.markdown("""
 <style>
+
 .hologram {
     width: 100px;
     filter: drop-shadow(0 0 12px cyan) drop-shadow(0 0 24px magenta);
@@ -30,20 +37,6 @@ hologram_style = """
     0% { filter: drop-shadow(0 0 12px cyan) drop-shadow(0 0 24px magenta); }
     100% { filter: drop-shadow(0 0 36px cyan) drop-shadow(0 0 72px magenta); }
 }
-</style>
-"""
-
-st.markdown(hologram_style, unsafe_allow_html=True)
-st.markdown(
-    '<img src="racing.png" class="hologram">',
-    unsafe_allow_html=True
-)
-
-# Custom CSS for better styling
-
-st.markdown("""
-<style>
-
 .st-emotion-cache-155jwzh{
     background-color: #450F1D;
     }
@@ -466,6 +459,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
