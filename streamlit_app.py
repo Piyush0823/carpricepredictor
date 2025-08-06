@@ -21,6 +21,11 @@ st.markdown("""
 <style>
 .main {
     padding-top: 2rem;
+    primaryColor="#d33682";
+    backgroundColor="#002b36";
+    secondaryBackgroundColor="#586e75";
+    textColor="#fafafa";
+    font="sans serif";
 }
 /* Make selectbox text white and background dark for visibility */
 .stSelectbox > div > div > div {
@@ -412,3 +417,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
