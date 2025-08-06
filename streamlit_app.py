@@ -9,7 +9,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 st.image("racing.png", width=100)
-st.markdown("<h2 style='font-family: cursive; text-align: center;'>PriceDekho.com</h2>", unsafe_allow_html=True)
+st.markdown("<h1 style='font-family: cursive; text-align: center;'>PriceDekho.com</h1>", unsafe_allow_html=True)
     
 
 
@@ -473,6 +473,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
