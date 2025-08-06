@@ -207,6 +207,33 @@ def main():
         "🚗  Car Price Predictor"
     )
     st.markdown("### Get accurate resale value predictions for your car")
+
+    
+
+footer = """
+<style>
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(90deg, #00c3ff 0%, #ffff1c 100%);
+    color: #222;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 16px;
+    font-family: 'Segoe UI', sans-serif;
+    box-shadow: 0 -2px 8px rgba(0,0,0,0.08);
+    z-index: 100;
+}
+</style>
+<div class="footer">
+    <strong>Creators:</strong> Piyush Verma, Dhananjay Kumar, Rajat Kumar, Shivam Vishwakarma<br>
+    <em>Thank you to all users for using our web app!</em>
+</div>
+"""
+
+st.markdown(footer, unsafe_allow_html=True)
     
     # Sidebar for inputs
     st.sidebar.header("Car Details")
@@ -446,6 +473,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
