@@ -19,6 +19,14 @@ st.set_page_config(
 # Custom CSS for better styling
 st.markdown("""
 <style>
+.st-emotion-cache-13k62yr {
+    position: absolute;
+    background: rgb(0, 143, 143);
+    color: rgb(250, 250, 250);
+    inset: 0px;
+    color-scheme: dark;
+    overflow: hidden;
+}
 .main {
     padding-top: 2rem;
 }
@@ -412,5 +420,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
