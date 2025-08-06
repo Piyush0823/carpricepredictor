@@ -22,6 +22,12 @@ st.markdown("""
 .st-emotion-cache-155jwzh{
     background-color: #450F1D;
     }
+.st-emotion-cache-18tdrd9 h1, .st-emotion-cache-18tdrd9 h2, .st-emotion-cache-18tdrd9 h3, .st-emotion-cache-18tdrd9 h4, .st-emotion-cache-18tdrd9 h5, .st-emotion-cache-18tdrd9 h6 {
+    font-family: "Courier", monospace;
+    line-height: 1.2;
+    margin: 0px;
+    color: inherit;
+}
 .st-emotion-cache-18tdrd9 h1{
     font-family: "Courier", monospace;
     }
@@ -433,6 +439,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
