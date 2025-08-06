@@ -22,13 +22,10 @@ st.markdown("""
 .st-emotion-cache-1j22a0y {
     flex-shrink: 0;
     display: flex;
-    -webkit-box-align: left;
-    align-items: left;
+    -webkit-box-align: right;
+    align-items: right;
     -webkit-box-pack: justify;
     justify-content: space-between;
-    width: 100%;
-    margin: 0px;
-    border: 0px;
 }
 .st-emotion-cache-155jwzh{
     background-color: #450F1D;
@@ -441,6 +438,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
