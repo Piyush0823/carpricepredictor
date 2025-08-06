@@ -34,7 +34,7 @@ st.markdown("""
     background-image: url("racing.png");
     background: rgb(61, 0, 0);
     color: rgb(250, 250, 250);
-    opacity:0.5;
+    
     inset: 0px;
     color-scheme: dark;
     overflow: hidden;
@@ -439,6 +439,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
