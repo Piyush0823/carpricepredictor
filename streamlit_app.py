@@ -31,7 +31,7 @@ st.markdown("""
     background-color: #450F1D;
     }
 .stAlertContainer{
-    font-color: white;
+    font-color: white !important;
     }
 .st-emotion-cache-13k62yr {
     position: absolute;
@@ -438,6 +438,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
