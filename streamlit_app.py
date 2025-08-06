@@ -30,7 +30,7 @@ st.markdown("""
 }
 
 <style>
-.st-al {
+.li {
     color: #ffffff;
 }
 .st-emotion-cache-13k62yr {
@@ -438,6 +438,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
