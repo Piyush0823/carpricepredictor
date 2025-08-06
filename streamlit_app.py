@@ -19,6 +19,9 @@ st.set_page_config(
 # Custom CSS for better styling
 st.markdown("""
 <style>
+.stMainBlockContainer{
+    background-image: "racing.png";
+    }
 .st-emotion-cache-1j22a0y {
     flex-shrink: 0;
     display: flex;
@@ -29,7 +32,6 @@ st.markdown("""
 }
 .st-emotion-cache-155jwzh{
     background-color: #450F1D;
-    background-image: racing.png;
     }
 .stAlertContainer{
     font-color: white !important;
@@ -439,6 +441,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
