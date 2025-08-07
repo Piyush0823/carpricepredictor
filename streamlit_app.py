@@ -333,8 +333,8 @@ def main():
     col1, col2 = st.columns([2, 1])
     
     with col1:
-            if st.button("🔍 Predict Price", type="primary"):
-                input_df = create_input_features(
+        if st.button("🔍 Predict Price", type="primary"):
+            input_df = create_input_features(
                 brand, year, fuel_type, transmission_type, seller_type,
                 km_driven, engine, max_power, mileage, seats, feature_columns, model=model
             )
@@ -477,6 +477,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
