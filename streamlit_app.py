@@ -334,7 +334,7 @@ def main():
     
     with col1:
             st.balloons()
-            if st.button("🔍 Predict Price", type="primary"):
+            if st.button("🔍 Predict Price"):
             # ... existing code ...
                 st.markdown(f"""<div class="price-prediction"> ... </div>""", unsafe_allow_html=True)
                 st.balloons()  # <-- Fun effect after prediction!
@@ -482,6 +482,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
