@@ -8,11 +8,7 @@ from datetime import datetime
 import warnings
 warnings.filterwarnings('ignore')
 
-st.balloons()
-if st.button("🔍 Predict Price", type="primary"):
-    # ... existing code ...
-    st.markdown(f"""<div class="price-prediction"> ... </div>""", unsafe_allow_html=True)
-    st.balloons()  # <-- Fun effect after prediction!
+
     
 
 st.image("racing.png", width=100)
@@ -478,6 +474,11 @@ def main():
                 """)
             except Exception:
                 pass
+st.balloons()
+if st.button("🔍 Predict Price", type="primary"):
+    # ... existing code ...
+    st.markdown(f"""<div class="price-prediction"> ... </div>""", unsafe_allow_html=True)
+    st.balloons()  # <-- Fun effect after prediction!
 
 if __name__ == "__main__":
     main()
