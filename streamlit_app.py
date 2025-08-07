@@ -333,7 +333,11 @@ def main():
     col1, col2 = st.columns([2, 1])
     
     with col1:
-        if st.button("🔍 Predict Price", type="primary"):
+        st.balloons()
+            if st.button("🔍 Predict Price", type="primary"):
+            # ... existing code ...
+            st.markdown(f"""<div class="price-prediction"> ... </div>""", unsafe_allow_html=True)
+            st.balloons()  # <-- Fun effect after prediction!
             # Create input features
             input_df = create_input_features(
                 brand, year, fuel_type, transmission_type, seller_type,
@@ -478,6 +482,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
